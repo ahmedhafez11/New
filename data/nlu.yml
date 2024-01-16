@@ -1,0 +1,86 @@
+version: "3.1"
+
+nlu:
+- intent: get_courses
+  examples: |
+    - What courses are available?
+    - Tell me about language courses.
+    - Get information about courses.
+    - Can you list the language courses?
+
+- intent: get_certificates
+  examples: |
+    - Can you provide information on certificates?
+    - Tell me about language certificates.
+    - Get details about certificates.
+    - Explain foreign language certificates.
+
+- intent: get_language_trips
+  examples: |
+    - Tell me about language trips.
+    - What language trips are offered?
+    - Get information about trips abroad for language learning.
+    - Any language trips available?
+
+- intent: get_tandem_programme
+  examples: |
+    - Explain the Tandem programme.
+    - How does the Tandem programme work?
+    - Tell me about language exchange.
+    - Can you provide information on the Tandem programme?
+
+- intent: get_theatre
+  examples: |
+    - What is the theatre program about?
+    - Tell me about drama groups.
+    - Any German plays being performed?
+    - Explain theatre for international students.
+
+- intent: get_language_courses_for_external_participants
+  examples: |
+    - Can external participants join language courses?
+    - Tell me about language courses for non-students.
+    - What are the options for external students?
+    - Explain language courses during lecture-free periods.
+
+- intent: register_for_language_course
+  examples: |
+    - How can I register for a language course?
+    - What are the registration steps for language courses?
+    - Can you guide me through the registration process?
+    - Tell me about enrolling in a language course.
+
+- intent: get_fee_information
+  examples: |
+    - What are the fees for language courses?
+    - Explain the cost of language courses.
+    - Any information on fees for language learning?
+    - Can you provide details on language course fees?
+
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey there
+    - Greetings
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Farewell
+    - See you
+    - Bye
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Indeed
+    - Absolutely
+    - That's correct
+
+- intent: deny
+  examples: |
+    - No
+    - Not really
+    - I don't think so
+    - Negative

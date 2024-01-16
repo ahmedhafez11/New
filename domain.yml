@@ -1,0 +1,138 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - inform
+  - get_courses
+  - get_certificates
+  - get_language_trips
+  - get_tandem_programme
+  - get_theatre
+  - get_language_courses_for_external_participants
+  - register_for_language_course
+  - get_fee_information
+
+entities:
+  - course
+  - language
+  - level
+  - document
+  - semester
+  - location
+  - email
+  - date
+  - fee
+
+slots:
+  course:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: course
+
+  language:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: language
+
+  level:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: level
+
+  document:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: document
+
+  semester:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: semester
+
+  location:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: location
+
+  email:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: email
+
+  date:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: date
+
+  fee:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: fee
+
+actions:
+  - action_get_courses
+  - action_get_certificates
+  - action_get_language_trips
+  - action_get_tandem_programme
+  - action_get_theatre
+  - action_get_language_courses_for_external_participants
+  - action_register_for_language_course
+  - action_get_fee_information
+  - utter_iamabot
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! If you have more questions, feel free to ask."
+
+  utter_ask_course_info:
+    - text: "Sure, I can provide information about language courses. Please specify the course you are interested in."
+
+  utter_inquire_certificate:
+    - text: "You can earn a Foreign Language Certificate in Spanish. Contact Dr. Virginia Wallner for more details."
+    - custom:
+        action: "action_get_certificates"
+
+  utter_inquire_language_trip:
+    - text: "We organize language trips. For example, in {year}, we had a trip to {destination}. Participants had {participants} and attended {course} at {university}."
+
+  utter_inquire_tandem_program:
+    - text: "Our Tandem program allows you to learn a foreign language with a native speaker. The next event is on {eventDate} at {eventTime} in {location}."
+
+  utter_inquire_theatre:
+    - text: "Our theatre program attracts international students to the German language. Contact Dr. Virginia Wallner for more information."
+
+  utter_inquire_language_courses_external:
+    - text: "External participants can attend various language courses. To register, contact sprachenzentrum@th-deg.de with required documents."
+
+  utter_ask_confirmation:
+    - text: "Are you sure you want to proceed?"
+
+  utter_course_registered:
+    - text: "You have successfully registered for the {course}. You will receive a confirmation email shortly."
+
+  utter_course_registration_failed:
+    - text: "I'm sorry, but there was an issue with the registration. Please try again later or contact our support."
+
+  utter_provide_required_documents:
+    - text: "To register, we need the following documents: {requiredDocuments}. Please submit them to sprachenzentrum@th-deg.de."
+
+  utter_admission_notification:
+    - text: "You will be informed of your admission in writing after approval by the AWP and Language Center."
+
+  utter_fee_information:
+    - text: "The fee for the language courses depends on how many courses are attended at DIT. Fees per semester: {feeInformation}."

@@ -1,0 +1,241 @@
+{
+  "courses": [
+    {
+      "courseID": "20111",
+      "courseName": "French A1/ Part 1",
+      "courseManager": "Tanja Mertadana M.A."
+    },
+    {
+        "courseID": "20121",
+        "courseName": "French A1/ Part 2",
+        "courseManager": "Tanja Mertadana M.A."
+      },
+      {
+        "courseID": "20211",
+        "courseName": "French A2/ Part 1",
+        "courseManager": "Tanja Mertadana M.A."
+      },
+      {
+        "courseID": "20221",
+        "courseName": "French A2/ Part 2",
+        "courseManager": "Tanja Mertadana M.A."
+      },
+      {
+        "courseID": "50111",
+        "courseName": "Portuguese A1/ Part 1",
+        "courseManager": "Tanja Mertadana M.A."
+      },
+      {
+        "courseID": "40111",
+        "courseName": "Spanish A1/ Part 1",
+        "courseManager": "Dr. Virginia Wallner"
+      },
+      {
+        "courseID": "40121",
+        "courseName": "Spanish A1/ Part 2",
+        "courseManager": "Dr. Virginia Wallner"
+      },
+      {
+        "courseID": "40131",
+        "courseName": "Spanish A1/ Part 3",
+        "courseManager": "Dr. Virginia Wallner"
+      },
+      {
+        "courseID": "40211",
+        "courseName": "Spanish A2/ Part 1",
+        "courseManager": "Dr. Virginia Wallner"
+      },
+      {
+        "courseID": "40221",
+        "courseName": "Spanish A2/ Part 2",
+        "courseManager": "Dr. Virginia Wallner"
+      },
+      {
+        "courseID": "40311",
+        "courseName": "Spanish B1/ Part 1",
+        "courseManager": "Dr. Virginia Wallner"
+      },
+      {
+        "courseID": "40321",
+        "courseName": "Spanish B1/ Part 2",
+        "courseManager": "Dr. Virginia Wallner"
+      },
+      {
+        "courseID": "60111",
+        "courseName": "Russian A1/ Part 1",
+        "courseManager": "Tanja Mertadana M.A."
+      },
+      {
+        "courseID": "60121",
+        "courseName": "Russian A1/ Part 2",
+        "courseManager": "Tanja Mertadana M.A."
+      },
+      {
+        "courseID": "70111",
+        "courseName": "Czech A1/ Part 1",
+        "courseManager": "Tanja Mertadana M.A."
+      },
+      {
+        "courseID": "70121",
+        "courseName": "Czech A1/ Part 2",
+        "courseManager": "Tanja Mertadana M.A."
+      },
+      {
+        "courseID": "80111",
+        "courseName": "English A1/ Part 1",
+        "courseManager": "Richard Ricot"
+      },
+      {
+        "courseID": "80121",
+        "courseName": "English A1/ Part 2",
+        "courseManager": "Richard Ricot"
+      },
+      {
+        "courseID": "80211",
+        "courseName": "English A2/ Part 1",
+        "courseManager": "Richard Ricot"
+      },
+      {
+        "courseID": "80221",
+        "courseName": "English A2/ Part 2",
+        "courseManager": "Richard Ricot"
+      },
+      {
+        "courseID": "80311",
+        "courseName": "English B1/ Part 1",
+        "courseManager": "Richard Ricot"
+      },
+      {
+        "courseID": "80321",
+        "courseName": "English B1/ Part 2",
+        "courseManager": "Richard Ricot"
+      },
+      {
+        "courseID": "90111",
+        "courseName": "Chinese A1/ Part 1",
+        "courseManager": "Dr. Li Mei"
+      },
+      {
+        "courseID": "90121",
+        "courseName": "Chinese A1/ Part 2",
+        "courseManager": "Dr. Li Mei"
+      },
+      {
+        "courseID": "90211",
+        "courseName": "Chinese A2/ Part 1",
+        "courseManager": "Dr. Li Mei"
+      },
+      {
+        "courseID": "90221",
+        "courseName": "Chinese A2/ Part 2",
+        "courseManager": "Dr. Li Mei"
+      },
+      {
+        "courseID": "90311",
+        "courseName": "Chinese B1/ Part 1",
+        "courseManager": "Dr. Li Mei"
+      },
+      {
+        "courseID": "90321",
+        "courseName": "Chinese B1/ Part 2",
+        "courseManager": "Dr. Li Mei"
+      }
+  ],
+  "certificates": [
+    {
+      "name": "Foreign Language Certificate - Spanish",
+      "description": "As part of the foreign language course accompanying your studies, you have the opportunity to earn a foreign language certificate in Spanish at DIT. Prerequisites are the successful completion of a level, such as all parts of level A1. Your Spanish skills will then be tested in an oral exam. If you are interested, please contact Dr. Virginia Wallner, the Spanish Coordinator."
+    },
+    {
+        "name": "DAAD certificates for a range of languages",
+        "description": "DAAD language certificates are often required for the application of scholarships and studies or internships abroad, although they are not internationally recognised qualifications. The exam is free of charge and consists of a 30 min test of your written and oral skills. On passing, the exam coordinator will award you with your certificate. Please schedule in plenty of preparation time for your test. Please direct your enquiries to: For English: Richard Ricot or Neal O'Donoghue, English Coordinators For Spanish: Virginia Wallner, Spanish Coordinator For French, Italian, Portuguese: Tanja Mertadana, head of the Language and Electives Centre The DAAD website has the appropriate form for you to download, titled \"Language Certificate for Candidates from Germany Applying for a DAAD Scholarship Abroad\"."
+      }
+  ],
+  "languageTrips": [
+    {
+      "destination": "Cork, Ireland",
+      "year": 2018,
+      "dates": "07 - 17.08.2018",
+      "participants": 10,
+      "course": "English courses",
+      "university": "Griffith College Cork"
+    },
+    {
+        "destination": "Wrexham, Wales",
+        "year": 2016,
+        "dates": "04 - 17.09.2016",
+        "participants": 14,
+        "course": "English courses",
+        "university": "Glyndŵr University"
+      },
+      {
+        "destination": "Barcelona, Spain",
+        "year": 2015,
+        "dates": "27 - 31.07.2015",
+        "participants": 18,
+        "course": "Spanish courses",
+        "university": "Universidad Autónoma de Barcelona"
+      }
+  ],
+  "tandemProgramme": {
+    "description": "The Tandem programme offers you the chance to learn a foreign language in an intercultural and authentic way with a native speaker.",
+    "registration": {
+      "eventDate": "11.10.2023",
+      "eventTime": "1.00 pm",
+      "location": "B 004",
+      "email": "tandem@th-deg.de"
+    },
+    "exam": {
+        "registrationPeriod": "Check iLearn during the regular exam registration period",
+        "credits": "Exchange students earn ECTS credits and a certificate of participation",
+        "certificate": "Regular students receive a certificate of participation"
+      },
+      "programmeFramework": {
+        "meetings": {
+          "frequency": "At least 11 times during the semester",
+          "duration": "45 minutes on each language per meeting, 90 mins in total"
+        },
+        "vocabulary": "Keep a vocabulary list, at least 10 words per meeting should be learned (a total of at least 110 words)",
+        "notes": "Keep notes of each Tandem meeting, including the summary sheet used and topics discussed",
+        "generalMeetings": "Attend one of the two general Tandem meetings",
+        "submission": "Upload vocabulary list and summary sheet to iLearn or submit via email to tandem@th-deg.de at the end of the semester"
+      }
+  },
+  "theatre": {
+    "description": "The theatre is to attract international students to the German language. It gives them the opportunity to take part in a drama group and perform in a chosen German play.",
+    "contact": "Contact Dr. Virginia Wallner",
+    "productions": [
+      {
+        "semester": "SuSe 2019",
+        "title": "Der Edelmann aus der Mancha",
+        "origin": "Don Quijote de la Mancha",
+        "plot": "The adventures of a noble from La Mancha named Alonso Quixano",
+        "production": "Don Quixote is in the psychiatric ward of a hospital, reliving his life's adventures with the nurse by his side."
+      },
+      {
+          "semester": "WiSe 2018/19",
+          "title": "Blaubarts Geheimnis oder was Frauen daran ändern können...",
+          "myth": "The myth of Bluebeard",
+          "plot": "A wealthy, old widower with a blue beard is looking for a seventh wife.",
+          "production": "The Bluebeard story serves as a metaphor for the strength of all women."
+        }
+    ]
+  },
+  "languageCoursesForExternalParticipants": {
+    "description": "Everyone has the opportunity to attend various language courses at our university. During the semester, it is only possible to participate in our German as a foreign language courses. In addition, you can take part in our one- to two-week intensive language courses during the lecture-free period. All languages are open here. Please note, however, that for all language courses except German, a completed German A2 level is a prerequisite for admission. External students do not receive student status for participation in language courses. You can find the course overviews on the website of the AWP and Language Center.",
+    "registration": {
+      "instructions": "To register, please contact sprachenzentrum@th-deg.de with an application for admission. To register, we need the following documents:",
+      "requiredDocuments": [
+        "Copy of valid identity card or passport",
+        "Completed and signed application form"
+      ],
+      "admissionNotification": "You will be informed of your admission in writing after approval by the AWP and Language Center."
+    },
+    "feeInformation": {
+      "semesterFees": {
+        "2LessonsPerWeek": "120 €",
+        "4LessonsPerWeek": "240 €"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+version: "3.1"
+
+stories:
+- story: Greet and Get courses information
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_courses
+  - action: action_get_courses
+
+- story: Get certificates information
+  steps:
+  - intent: get_certificates
+  - action: action_get_certificates
+
+- story: Inquire about language trips
+  steps:
+  - intent: get_language_trips
+  - action: action_get_language_trips
+
+- story: Ask about the Tandem programme
+  steps:
+  - intent: get_tandem_programme
+  - action: action_get_tandem_programme
+
+- story: Inquire about theatre program
+  steps:
+  - intent: get_theatre
+  - action: action_get_theatre
+
+- story: Inquire about language courses for external participants
+  steps:
+  - intent: get_language_courses_for_external_participants
+  - action: action_get_language_courses_for_external_participants
+
+- story: Register for a language course
+  steps:
+  - intent: register_for_language_course
+  - action: action_register_for_language_course
+
+- story: Inquire about fee information
+  steps:
+  - intent: get_fee_information
+  - action: action_get_fee_information
+
+- story: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
